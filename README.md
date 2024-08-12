@@ -35,28 +35,28 @@ Documentación Interactiva:
 
 
 Endpoints de la API
-POST /api/notes:
 
-Descripción: Crea una nueva nota.
-Entrada: Un objeto JSON que contiene los detalles de la nota (título, contenido, etiquetas, etc.).
-Salida: El ID de la nota recién creada.
-GET /api/notes:
+#### POST /api/notes:
+- Descripción: Crea una nueva nota.
+  - Entrada: Un objeto JSON que contiene los detalles de la nota (título, contenido, etiquetas, etc.).
+  - Salida: El ID de la nota recién creada.
 
-Descripción: Recupera una lista de todas las notas.
-Entrada: Ninguna.
-Salida: Una lista de notas.
-GET /api/notes/{note_id}:
+#### GET /api/notes:
+- Descripción: Recupera una lista de todas las notas.
+  - Entrada: Ninguna.
+  - Salida: Una lista de notas.
 
-Descripción: Recupera los detalles de una nota específica.
-Entrada: El ID de la nota.
-Salida: Los detalles de la nota.
-PUT /api/notes/{note_id}:
+<!-- #### GET /api/notes/{note_id}:
+- Descripción: Recupera los detalles de una nota específica.
+  - Entrada: El ID de la nota.
+  - Salida: Los detalles de la nota. -->
 
-Descripción: Actualiza una nota existente.
-Entrada: El ID de la nota y un objeto JSON con los campos a actualizar.
-Salida: El número de documentos modificados.
-DELETE /api/notes/{note_id}:
+#### PUT /api/notes/{note_id}:
+- Descripción: Actualiza una nota existente.
+  - Entrada: El ID de la nota y un objeto JSON con los campos a actualizar.
+  - Salida: El número de documentos modificados.
 
-Descripción: Elimina una nota específica.
-Entrada: El ID de la nota.
-Salida: Un mensaje de confirmación de eliminación.
+#### DELETE /api/notes/{note_id}:
+- Descripción: Elimina una nota específica.
+  - Entrada: El ID de la nota.
+  - Salida: Un mensaje de confirmación de eliminación.
