@@ -14,8 +14,8 @@ Instalación y Ejecución
 
 Clonar el repositorio:
 ```bash
-git clone https://github.com/usuario/FastAPI-CRUD-Notes.git
-cd FastAPI-CRUD-Notes
+git clone https://github.com/guidopastorino/fastapi-crud-notes.git
+cd fastapi-crud-notes
 ```
 
 Instalar las Dependencias:
